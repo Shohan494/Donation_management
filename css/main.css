@@ -1,0 +1,237 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 1;
+}
+ol, ul {
+    list-style: outside none none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.menu-title {
+    color: Black;
+    display: block;
+    font-size: 45px;
+    padding: 15px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.tbls {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #333;
+    font-family: Helvetica,Arial,sans-serif;
+    line-height: 30px;
+    width: 640px;
+}
+td, th {
+    border: 1px solid #e8e8e8;
+    height: 30px;
+    padding: 7px;
+    transition: all 0.3s ease 0s;
+}
+th {
+    background: #dfdfdf none repeat scroll 0 0;
+    font-weight: bold;
+}
+td {
+    background: #fafafa none repeat scroll 0 0;
+    text-align: center;
+}
+tr:nth-child(2n) td {
+    background: #efefef none repeat scroll 0 0;
+}
+tr:nth-child(2n+1) td {
+    background: #d3d6be none repeat scroll 0 0;
+}
+tr td:hover {
+    background: #666 none repeat scroll 0 0;
+    color: #fff;
+}
+#edit {
+    background: #918f8f none repeat scroll 0 0;
+    border-radius: 0;
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+#delete {
+    background: #c14747 none repeat scroll 0 0;
+    border-radius: 0;
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+#warning {
+    background: red none repeat scroll 0 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: white;
+    margin: 0 auto;
+    padding: 15px 25px;
+    width: 160px;
+}
+#failed {
+    background: red none repeat scroll 0 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: white;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 25px;
+    width: 160px;
+}
+.head-section {
+    background: #3f3f3f none repeat scroll 0 0;
+    padding: 35px;
+    width: 1279px;
+}
+#heading {
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+#mini-section {
+    background: #888888 none repeat scroll 0 0;
+    border-top: 1px dotted white;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+.header-list {
+    float: right;
+}
+.header-list li {
+    border-left: 1px dotted white;
+    float: left;
+    height: 20px;
+    padding: 11px;
+    text-align: center;
+    width: 90px;
+}
+.header-list li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in 0s;
+}
+.header-list li:hover {
+    background: #db4843 none repeat scroll 0 0;
+}
+.sidebar {
+    float: left;
+    width: 275px;
+}
+.main-nav {
+    text-align: center;
+}
+.main-nav li {
+    border: 1px dotted black;
+    display: block;
+    height: 70px;
+    padding-top: 15px;
+    transition: all 0.5s ease-in 0s;
+    width: 270px;
+}
+.main-nav li:hover {
+    background: #efdeb2 none repeat scroll 0 0;
+}
+.main-nav a {
+    text-decoration: none;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+.main-nav li img {
+    height: 60px;
+    width: 60px;
+}
+.main-nav li p {
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#dashboard-section {
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 1000px;
+}
+#dashboardlist li p {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.dashboard-links {
+    margin-left: 15px;
+    position: relative;
+    top: 25px;
+    width: 700px;
+}
+.hlink {
+    background: #0f4545 none repeat scroll 0 0;
+    color: white;
+    float: left;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding: 12px 35px;
+    text-decoration: none;
+    transition: all 0.5s ease-in 0s;
+}
+.hlink:hover {
+    background: #a53838 none repeat scroll 0 0;
+}
+.donor-section {
+    float: left;
+}
+.cat-link {
+    margin-left: 15px;
+}
+#add-donor-form {
+    float: left;
+    margin-top: 65px;
+    width: 500px;
+}
+.form-field {
+    padding: 15px;
+    width: 100%;
+}
+.form-text {
+    padding: 10px 0;
+}
+#submit {
+    background: #e8bd6c none repeat scroll 0 0;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
